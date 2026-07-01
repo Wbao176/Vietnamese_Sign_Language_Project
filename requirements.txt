@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python
+mediapipe==0.10.21
+torch
+tqdm
+joblib
+PyYAML
+matplotlib
+seaborn
+pytest

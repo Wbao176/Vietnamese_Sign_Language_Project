@@ -1,0 +1,22 @@
+# Environments
+.venv/
+Evenv/
+Tvenv/
+
+# Generated datasets
+data/raw/
+data/processed/
+*.npz
+*.mp4
+
+# Training outputs
+artifacts/checkpoints/
+runs/
+*.pth
+*.pt
+*.pkl
+
+# Keep metadata and splits
+!data/manifests/*.csv
+!data/manifests/*.json
+!data/splits/*.csv
