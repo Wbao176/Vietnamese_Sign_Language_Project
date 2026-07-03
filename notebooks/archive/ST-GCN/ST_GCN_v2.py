@@ -2,9 +2,7 @@ import torch
 import torch.nn as nn
 from adjacency import get_vsl_adjacency
 
-# -------------------------
-# NEW: Squeeze-and-Excitation Attention
-# -------------------------
+
 class SELayer(nn.Module):
     def __init__(self, channel, reduction=8):
         super(SELayer, self).__init__()
